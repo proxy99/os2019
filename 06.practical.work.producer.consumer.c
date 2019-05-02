@@ -5,7 +5,6 @@
 #include <stdbool.h>
 
 #define BUFFER_SIZE 10
-
 typedef struct product
 {
 	char type;  // 0=burito, 1=taco
@@ -16,13 +15,11 @@ typedef struct product
 item buffer[BUFFER_SIZE];
 int first = 0;
 int last = 0;
-
 void initBurito(item *smt) {
 	smt->type = 0;
 	smt->amount = 0;
 	smt->unit = 0;
 }
-
 void produce(item *i)
 {
 	while ((first + 1) % BUFFER_SIZE == last)
@@ -34,7 +31,6 @@ void produce(item *i)
 	first = (first + 1) % BUFFER_SIZE;
 	printf("First = %d\n", first);
 }
-
 void consume()
 {
 	item *i = malloc(sizeof(item));
