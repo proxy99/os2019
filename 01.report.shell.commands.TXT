@@ -1,0 +1,51 @@
+-hello world
+
+-changing password for tangquan99.
+(current) UNIX password:
+Enter new UNIX password:
+Retype new UNIX password:
+passwd: password updated successfully
+
+-Wed Apr 3 22:18:23 ICT 2019
+
+-tangquan99-Virtualbox
+
+-x86_64
+
+-Linux tangquan99-Virtualbox 3.16.0-30-generic #40~14.04.1-Ubuntu SMP Thu Jan 15 17:43:14 UTC 2015 x86_64 x86_64 x86_64 GNU/Linux
+
+[     0.000000] ACPI: LAPIC (apci_id[0x00] lapic_id[0x00] enabled)
+[     0.000000] ACPI: IOAPIC (id[0x01] address[0xfec00000] gsi_base[0])
+[     0.000000] IOAPIC[0]: apic_id 1, version 32, address 0xfec00000, GSI 0-23
+[     0.000000] APCI: INT_SRC_OVR (bus 0 bus_irq 0 global_irq 2 dfl dfl)
+[     0.000000] APCI: INT_SRC_OVR (bus 0 bus_irq 9 global_irq 9 low level)
+[     0.000000] APCI: IRQ0 used by override.
+[     0.000000] APCI: IRQ2 used by override.
+[     0.000000] APCI: IRQ9 used by override.
+[     0.000000] Using APCI (MADT) for SMP configuration information
+[     0.000000] smpboot: Allowing 1 CPUs , 0 hotplug CPUs
+
+-22:58:53 up 48 min, 2 users , load average : 0,00 , 0,01 , 0,05
+
+-tangquan99 pts/0             2019-04-03  22:17 (:0)
+
+-tangquan99
+
+- tangquan99 :0               2019-04-03  22:10 (:0)
+  tangquan99 pts/0            2019-04-03  22:17 (:0)
+  
+-uid=1000(tangquan99)  gid=1000(tangquan99)  groups=1000(tangquan99), 4(adm), 24(cdrom), 27(sudo), 30(dip), 46(plugdev), 
+108(lpadmin), 124(sambashare)
+
+-tangquan pts/0          :0                 Wed Apr  3  22:17  still logged in
+ tangquan :0             :0                 Wed Apr  3  22:10  still logged in
+ reboot   system boot    3.16.0-30-generi   Wed Apr  3  22:10-23:07  (00:56)
+ wtmp begin Wed Apr  3  12:00:34  2019
+- Login        Name         Tty     Idle   Login time    Office    office phone   
+  tangquan99   tangquan99  *:0             Apr  3 22:10  (:0)
+  tangquan99   tangquan99   pts/0          Apr  3 22:17  (:0)
+
+-23:21:54 up  1:11, 2 users,   load average: 0.04, 0.06, 0.05
+USER      TTY    FROM   LOGIN@   IDLE    JCPU    PCPU    WHAT
+tangquan  :0     :0     22:10    ?xdm?   1:55    0.12s   init --user
+tangquan  pts/0  :0     22:17    2.00s   0.04s   0.00s   w
