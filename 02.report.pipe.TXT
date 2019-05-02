@@ -1,0 +1,14 @@
+1. tangquan99@tangquan99-VirtualBox:~$ ls -la | grep list
+2. tangquan99@tangquan99-VirtualBox:~$ wc -l /etc/passwd
+	35 /etc/passwd
+3. tangquan99@tangquan99-VirtualBox:~$ free
+	total		used		free		shared		buffers		cached
+Mem:	1017560		903908		113652		2580		62268		337180
+-/+ buffers/cache:	504460		513100
+swap	1046524		36668		1009856
+
+4.tangquan99@tangquan99-VirtualBox:~$ cat /proc/cpuinfo | grep processor | wc -l
+1
+
+5.tangquan99@tangquan99-VirtualBox:~$ /usr/share/backgrounds/linuxmint-tara$ find -name "*.jpg" | wc -l
+0
