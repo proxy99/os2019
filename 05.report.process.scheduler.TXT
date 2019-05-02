@@ -1,0 +1,15 @@
+1)tangquan99@tangquan99-VirtualBox:~$ grep systemd /proc/sched_debug
+systemd-udevd	262	93.272721	456	120	93.272721
+57.144424	35395.445114  0  /autogroup-55
+systemd-logind	756	23.563703	185	120	23.563703
+24.772735	967635.516351  0  /autogroup-165
+
+2)tangquan99@tangquan99-VirtualBox:~$ grep switch /proc/262/sched
+nr_switches			:		456
+nr_voluntary_switches		:		 48
+nr_involuntary_switches		:		408
+
+3)tangquan99@tangquan99-VirtualBox:~$ grep switch /proc/756/sched
+nr_switches			:		214
+nr_voluntary_switches		:		175
+nr_involuntary_switches		:		 39
