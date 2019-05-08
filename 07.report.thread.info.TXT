@@ -1,0 +1,7 @@
+1) tangquan99@tangquan99-VirtualBox:~$ ps aux | grep -i firefox
+tangqua+ 2279 2.3 22.6 984248 230208 ?		sl   08:47	0:10 /usr/lib/firefox/firefox
+tangqua+ 2567 0.0 0.2   17420  2444 pts/0	S+   08:54	0:00 grep --color=auto -i firefox
+
+2) tangquan99@tangquan99-VirtualBox:~$ ps -o nlwp 2279
+NLWP
+  42
