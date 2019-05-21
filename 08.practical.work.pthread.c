@@ -81,8 +81,9 @@ int main()
 	printf("This is the main thread speaking\n");
 	printf("Creating producerThread ...\n");
 	pthread_create(&tid, NULL,producerThread, NULL);
-	pthread_join(tid, NULL);
 	printf("Creating consumerThread ...\n");
 	pthread_create(&tid, NULL,consumerThread, NULL);
+	pthread_join(tid, NULL);
+	pthread_join(tid, NULL);
 	pthread_exit(NULL);
 }
